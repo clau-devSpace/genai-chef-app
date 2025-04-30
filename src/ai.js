@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyC6hRtrdzQu-s22dQlk0hW00Xsi_CNMhuE"
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY
  });
 
 const SYSTEM_PROMPT = 

@@ -45,6 +45,7 @@ export default function SendIngredientsForm() {
       </form>
      
        <h2 className="minimunIngredients">Add at least 3 ingredients</h2>
+       <h2 className="minimunIngredients">Recipe generation may take a few seconds</h2>
     </div>
 
     {ingredients.length > 0 && <ShowIngredients
